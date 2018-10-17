@@ -12,13 +12,16 @@
  *
  */
 
-/* Boostrap */
+// Boostrap
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-/* Variables */
+// Variables
 @import 'base/variables';
 
-/* Partials - main css files */
+// Default styles
+@import 'base/default';
+
+// Partials - main css files
 @import 'partials/*';
 @import 'partials/layout/*';
