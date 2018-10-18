@@ -1,0 +1,39 @@
+#main-content {
+  background: white;
+  min-height: 800px;
+  margin: 0;
+  padding: 10px 0 0 0;
+}
+
+#side-menu {
+  padding: 0;
+
+  #link-list {
+    margin-top: 20px;
+    padding: 0;
+    font-size: 14px;
+    font-size: 1.4rem;
+
+    a {
+      display: block;
+      padding: 5px 15px;
+      margin: 2px 0;
+      text-decoration: none;
+    }
+
+    li {
+      width: 195px;
+      color: black;
+
+      &:hover {
+        border-radius: 50px;
+        background: $navbarColor;
+
+        a,
+        i {
+          color: white;
+        }
+      }
+    }
+  }
+}
