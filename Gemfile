@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'devise'
 gem 'rspec-rails', '~> 3.6'
-gem 'factory_girl_rails'
+gem 'factory_bot_rails'
 gem 'rails-controller-testing'
 gem 'headless'
 gem 'poltergeist'
