@@ -4,7 +4,7 @@ $(document).on('turbolinks:load', function () {
   if ($('.infinite-scroll', this).size() > 0) {
     $(window).on('scroll', function () {
       var more_posts_url = $('.pagination a.next_page').attr('href');
-      var threshold_passed = $(window).scrollTop() > $(document).heigh() - $(window).height() - 60;
+      var threshold_passed = $(window).scrollTop() > $(document).height() - $(window).height() - 60;
       if (!isLoading && more_posts_url && threshold_passed) {
         isLoading = true;
         $.getScript(more_posts_url).done(function (date, textStatus, jqxhr) {
