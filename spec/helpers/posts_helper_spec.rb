@@ -46,7 +46,7 @@ RSpec.describe PostsHelper, type: :helper do
 
     it "return a branch_page partial's path" do
       helper.stub(:current_page?).and_return(false)
-      expect(helper.post_format_partial_path).to ( eq 'pots/post/branch_page' )
+      expect(helper.post_format_partial_path).to ( eq 'posts/post/branch_page' )
     end
   end
 end
