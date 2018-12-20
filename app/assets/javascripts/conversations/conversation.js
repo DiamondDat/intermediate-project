@@ -26,9 +26,3 @@ function calculateUnseenConversation() {
     $('#unseen-conversations').text('');
   }
 }
-
-send_message: function(message) {
-  return this.perform('send_message', {
-    message: message
-  });
-}

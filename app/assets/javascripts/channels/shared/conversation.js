@@ -13,7 +13,7 @@ function findConv(conversation_id, type) {
   }
 }
 
-checks if a conversation window is rendered and visible on a browser
+// checks if a conversation window is rendered and visible on a browser
 function ConvRendered(conversation_id, type) {
   // if a current conversation is opened in the messenger
   if($('body .conversation').length) {
