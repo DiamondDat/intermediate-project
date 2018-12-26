@@ -1,5 +1,5 @@
-<% @contact = get_contact_record(@recipient) %>
 <% @recipient = private_conv_recipient(conversation) %>
+<% @contact = get_contact_record(@recipient) %>
 <% @is_messenger = false %>
 <li class="conversation-window" id="pc<%= conversation.id %>" data-pconversation-user-name="<%= @recipient.name %>" data-turbolinks-permanent>
   <div class="panel panel-default" data-pconversation-id="<%= conversation.id %>">
